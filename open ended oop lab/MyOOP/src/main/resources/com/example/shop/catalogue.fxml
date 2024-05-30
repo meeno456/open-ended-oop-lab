@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.shop.MyController">
+  <children>
+    <VBox spacing="10" style="-fx-background-color: #e862d6;">
+      <Label text="FLUFFY STUFFED ANIMALS" textFill="#028019" style="-fx-font-size: 24px; -fx-font-weight: bold;" alignment="CENTER" maxWidth="Infinity"/>
+      <GridPane fx:id="productGrid" hgap="30" vgap="30" alignment="CENTER">
+      </GridPane>
+    </VBox>
+  </children>
+</StackPane>
